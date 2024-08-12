@@ -1,0 +1,109 @@
+/* Basic style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.introduction img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.projects img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Dark mode style */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header.dark-mode, footer.dark-mode {
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+nav ul li a.dark-mode {
+    color: #cccccc;
+}
+
+/* Toggle button style */
+.theme-toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.theme-toggle-button.light-mode {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.blog-post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.blog-post h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+.blog-post p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+

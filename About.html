@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the webpage -->
+    <title>About Me - Personal Portfolio</title>
+    
+    <!-- Linking external CSS files -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header section with a navigation menu -->
+    <header>
+        <!-- Main heading of the about page -->
+        <h1 style="text-align: center;">About Me</h1>
+        
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Project.html">Projects</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Biography section -->
+        <section class="biography">
+            <h2>Biography</h2>
+            <p>Hello, my name is Yifan Shi, I am 26 years old and study information technology at York University.</p>
+            
+            <!-- Skills section -->
+            <h3>Skills</h3>
+            <ul>
+                <li>Technical skills: Python, Java, HTML, Matlab</li>
+                <li>Language skills: English, French, Chinese</li>
+                <li>Other skills: Standard level C first aid</li>
+            </ul>
+            
+            <!-- Resume section -->
+            <h3>Resume</h3>
+            <!-- Embedded PDF resume -->
+            <iframe src="YIFAN SHI-CV new.pdf" width="100%" height="500px"></iframe>
+            <!-- Download link for the resume -->
+            <p><a href="YIFAN SHI-CV new.pdf" class="btn btn-primary" download>Download Resume</a></p>
+        </section>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Yifan. All rights reserved.</p>
+    </footer>
+    <!-- This is the button to switch between light/dark mode -->
+<button id="theme-toggle-button" class="theme-toggle-button">Dark Mode</button>
+
+<!-- Import JavaScript file -->
+<script src="scripts.js"></script>
+
+</body>
+</html>

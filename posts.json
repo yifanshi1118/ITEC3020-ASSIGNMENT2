@@ -1,0 +1,13 @@
+
+[
+    {
+        "title": "How I Added the Light/Dark Mode Switcher",
+        "date": "2024-08-12",
+        "content": "In this post, I'll explain how I added a light/dark mode switcher to my portfolio. This switcher lets users change the look of the website between a light theme and a dark theme. To make this work, I added a button that, when clicked, runs a JavaScript function. This function adds or removes a 'dark-mode' class to the body of the page. The class changes the colors to match the theme. I also used localStorage to remember the user's choice, so the website stays in the chosen theme even after they leave and come back."
+    },
+    {
+        "title": "How I Built the Dynamic Blog Section",
+        "date": "2024-08-12",
+        "content": "In this post, I'll talk about how I created a dynamic blog section for my portfolio. I used JavaScript to load blog posts from a JSON file and show them on the blog page. Here's how I did it: First, I made a JSON file to store the blog data, like titles and content. Then, I wrote JavaScript code that fetches this data and creates HTML elements for each blog post. This way, the blog page automatically updates whenever I change the JSON file, making it easy to keep the content fresh and organized."
+    }
+]
